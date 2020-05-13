@@ -2,19 +2,44 @@
     --main-color:#888888;
     --second-color:#f0f0f0;
     --bold-color:#996F00;
-    --sub-color: #403c35;
-    --body-color:#707070;
+    --body-color: #403c35;
+    --sub-color:#707070;
     --box-color:#e4e7ee;
+}
+/* * {
+    margin:0;
+} */
 
+/* Div Containers  */
 
-
+.joyeria {
+    text-decoration:underline;
+    color: red;
 }
 
-h1 {
+.top {
+    background-color: var(--box-color);
+}
+
+.middle {
+
+    background-color: var(--main-color);
+}
+
+.bottom {
+    height: 200px;
+    width: 200px;
+    background-color: var(--sub-color);
+}
+
+
+
+
+h1, h2 {
     color:var(--bold-color);
 }
 
-h2{
+h3{
     color: var(--main-color);
 }
 
@@ -24,4 +49,21 @@ hr {
     border-top-style: dotted;
     border-width: 5px;
     width: 10%;
+}
+
+
+li:hover, a:hover {
+    color: var(--bold-color);
+    text-decoration: underline;
+}
+
+li,a {
+    color: var(--main-color);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+
+.logo {
+    height: 200px;
 }
