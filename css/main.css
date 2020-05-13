@@ -6,9 +6,16 @@
     --sub-color:#707070;
     --box-color:#e4e7ee;
 }
-/* * {
-    margin:0;
-} */
+
+
+* {
+    margin:0; 
+}
+
+body {
+    text-align: center;
+    font-family: nunito, adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;;
+}
 
 /* Div Containers  */
 
@@ -19,10 +26,11 @@
 
 .top {
     background-color: var(--box-color);
+    position: relative;
+    padding: 100px;
 }
 
 .middle {
-
     background-color: var(--main-color);
 }
 
@@ -32,8 +40,7 @@
     background-color: var(--sub-color);
 }
 
-
-
+/* Text styles */
 
 h1, h2 {
     color:var(--bold-color);
@@ -53,17 +60,31 @@ hr {
 
 
 li:hover, a:hover {
-    color: var(--bold-color);
-    text-decoration: underline;
+    color: black;
+    font-weight:bold;
+    text-decoration: underline var(--bold-color);
 }
 
 li,a {
     color: var(--main-color);
-    font-weight: bolder;
     text-decoration: none;
 }
 
+/* Image Styles */
 
 .logo {
     height: 200px;
 }
+
+.top-cloud {
+    position:absolute;
+    right:300px;
+    top:50px;
+}
+
+.bottom-cloud {
+    position:absolute;
+    left:300px;
+    bottom:300px;
+}
+
