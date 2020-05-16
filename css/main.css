@@ -22,6 +22,7 @@
 }
 .logo {
     height: 200px;
+    position:sticky;
 }
 
 
@@ -30,7 +31,7 @@
 body {
     text-align: center;
     /* font-family: 'Halant', serif; */
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Noto Serif JP','Halant', serif;
 }
 
 
@@ -51,14 +52,25 @@ h4 {
     color: black;
 }
 
-.cta:hover, .main-nav_link:hover {
-    background: linear-gradient(90deg,#bd9417,#996f00);
+
+
+.cta:hover, .main-nav_link:hover,a:hover {
+    background: linear-gradient(90deg,#996f00,#bd9417);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
     text-shadow: none;
 }
+
+
+/* TF CODE */
+/* ol li, ul li {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.5;
+} */
 
 li:hover, a:hover {
     color: black;
@@ -76,8 +88,14 @@ li {
 }
 
 
+/* Figure Out how to show/hide on hover. "none" = does the opposite of what i want */
+/* .main-nav_link:hover {
+    display: hidden;
+} */
 
-
+.sub-nav_inner:hover{
+    visibility:hidden;
+}
 
 
 
