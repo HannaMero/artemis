@@ -7,24 +7,84 @@
     --box-color:#e4e7ee;
 }
 
-
 * {
     margin:0; 
 }
 
+/* ARTEMIS LOGO */
 .artemis {
     font-family: 'Halant', serif;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px ;
     font-size: 4em;
+    /* text-align: center; */
 }
+.logo {
+    height: 200px;
+}
+
+
+
 
 body {
     text-align: center;
-    /* font-family: nunito, adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;; */
-    font-family: 'Halant', serif;
+    /* font-family: 'Halant', serif; */
+    font-family: 'Noto Serif JP', serif;
 }
+
+
+
+/* Text styles */
+
+h1, h2 {
+    color:var(--bold-color);
+}
+
+h3{
+    color: var(--main-color);
+}
+
+
+h4 {
+    font-weight: normal;
+    color: black;
+}
+
+.cta:hover, .main-nav_link:hover {
+    background: linear-gradient(90deg,#bd9417,#996f00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: none;
+}
+
+li:hover, a:hover {
+    color: black;
+}
+
+
+li,a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+/* UDEMY & LANDING PAGE EXCERCIE */
 
 /* Div Containers  */
 
@@ -49,61 +109,15 @@ body {
     background-color: var(--sub-color);
 }
 
-/* Text styles */
 
-h1, h2 {
-    color:var(--bold-color);
-}
-
-h3{
-    color: var(--main-color);
-}
-
-hr {
+/* hr {
     border-color:var(--box-color);
     border-style: none;
     border-top-style: dotted;
     border-width: 5px;
     width: 10%;
-}
+} */
 
-
-li:hover, a:hover {
-    color: black;
-    font-weight:bold;
-    text-decoration: underline var(--bold-color);
-}
-
-li,a {
-    color: var(--main-color);
-    text-decoration: none;
-}
-
-li, ol {
-    list-style: none;
-    text-align: left;
-}
-
-
-/* Image Styles */
-
-.logo {
-    height: 200px;
-}
-
-.top-cloud {
-    position:absolute;
-    right:300px;
-    top:50px;
-}
-
-.bottom-cloud {
-    position:absolute;
-    left:300px;
-    bottom:300px;
-}
-
-/* LANDING PAGE EXCERCIE */
 .home-t {
     font-family: 'Merriweather', serif;
     color: var(--bold-color);
@@ -116,4 +130,20 @@ li, ol {
 
 .home-p {
     font-family: 'Montserrat', sans-serif;
+}
+
+/* Image Styles */
+
+
+
+.top-cloud {
+    position:absolute;
+    right:300px;
+    top:50px;
+}
+
+.bottom-cloud {
+    position:absolute;
+    left:300px;
+    bottom:300px;
 }
