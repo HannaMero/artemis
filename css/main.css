@@ -12,16 +12,25 @@
     margin:0; 
 }
 
+.artemis {
+    font-family: 'Halant', serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px ;
+    font-size: 4em;
+}
+
 body {
     text-align: center;
-    font-family: nunito, adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;;
+    /* font-family: nunito, adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;; */
+    font-family: 'Halant', serif;
 }
 
 /* Div Containers  */
 
 .joyeria {
     text-decoration:underline;
-    color: red;
+    color:var(--bold-color);
 }
 
 .top {
@@ -70,6 +79,12 @@ li,a {
     text-decoration: none;
 }
 
+li, ol {
+    list-style: none;
+    text-align: left;
+}
+
+
 /* Image Styles */
 
 .logo {
@@ -88,3 +103,17 @@ li,a {
     bottom:300px;
 }
 
+/* LANDING PAGE EXCERCIE */
+.home-t {
+    font-family: 'Merriweather', serif;
+    color: var(--bold-color);
+}
+
+
+.home-h {
+    font-family: 'Sacramento', cursive;
+}
+
+.home-p {
+    font-family: 'Montserrat', sans-serif;
+}
