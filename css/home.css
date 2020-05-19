@@ -7,7 +7,6 @@
     --box-color:#e4e7ee;
 }
 
-
 /* * {
     margin:0; 
 } */
@@ -99,14 +98,12 @@ ol li, ul li, a {
 /* .main-nav_link:hover {
     display: hidden;
 } */
-
+/* 
 .sub-nav_inner{
 
 }
 
-.sub-nav_inner:hover{
-
-}
+.sub-nav_inner:hover{ */
 
 
 
@@ -185,9 +182,6 @@ padding:10%;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
     line-height: 2;
-}
-
-.skills {
 }
 
 .skill-row {
@@ -336,7 +330,7 @@ p{
 }
 
 
-}#header-logo span {
+#header-logo span {
     display: block;
 }
 
