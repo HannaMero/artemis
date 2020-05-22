@@ -1,0 +1,17 @@
+:root {
+    --site-space: 30px;
+    --dark-green: var(--dark-g);
+    --mid-green: #789048;
+    --light-green: #c0d860;
+    --white: #f0f0d8;
+    --black: #1d1c1c;
+    --facebook-blue: #3C5A99;
+    --twitter-blue: #1DA1F2;
+    --small: 500px;
+    --dark-p: #f8d4d1;
+    --light-p: #fbe3e1;
+    --selected-p: #f5c8c4;
+    --dark-g: #1c5137;
+    --light-g: #41926b;
+    --no: #ce5252;
+}
