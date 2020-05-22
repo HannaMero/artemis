@@ -11,6 +11,38 @@
     margin:0; 
 }
 
+header.bodas {
+    background-color:var(--box-color);
+
+    display: grid;
+    grid-gap:1rem;
+    grid-template-columns: 1fr 2fr;;
+}
+
+.page-title{
+    background-color:yellow;
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.navbar>ul{
+    background:var(--bold-color);
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(8,1fr);
+}
+
+
+nav.boda>ul{
+    display: grid;
+    grid-gap: 1rem;
+}
+
+
+
+
+
 /* ARTEMIS LOGO */
 .artemis {
     font-family: 'Halant', serif;
@@ -20,8 +52,11 @@
     font-size: 4em;
     /* text-align: center; */
 }
+
+
+
 .logo {
-    height: 200px;
+    height: 150px;
     position:sticky;
     /* transition: fadeIn .3s ease-in-out; */
 }

@@ -1,0 +1,167 @@
+:root {
+    --main-color:#888888;
+    --blanco:#f0f0f0;
+    --bold-color:#996F00;
+    --body-color:#403c35;
+    --sub-color:#707070;
+    --box-color:#e4e7ee;
+
+    --body1:#e9e3db;
+    --body2:#dfd8d1;
+    --body3:#d2c5bb;
+    --body4:#c3b29d;
+    --body5:#c0b4aa;
+    --body6:#a79990;
+    --body7:#938982;
+    --body8:#60564f;
+    
+    --gold2:#b39347;
+
+    /* colores del logo */
+    --negro:#030303;
+    --gris:#bdbab6;
+    --gris2:#7d7b77;
+    --dorado:#af9e72;
+
+    /* Chaumet */
+    --chaumet1:#F9F6F2;
+    --chaumet2:#a48156;
+    --chaumet3:#c2a27a;
+
+    /* Breakpoints */
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+  
+}
+
+*{
+    margin:0; 
+}
+
+body{
+    display: grid;
+}
+
+.top-container{
+    display: grid;
+    grid-gap: 20px;
+}
+
+header.bodas {
+    display: grid;
+    grid-gap:5px;
+    grid-template-columns: 100px 300px 2fr;
+    align-items:center;
+    height: ;
+}
+
+
+.page-logo{
+}
+
+
+
+.navbar>ul{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(8,1fr);
+}
+
+#navBoda{
+  
+}
+
+.nav-sub>ul{
+    display: grid;
+    grid-gap: 1rem;
+    text-align: left;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+/* ARTEMIS LOGO */
+.artemis {
+    font-family: 'Halant', serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px ;
+    font-size: 2.5em;
+    color:var(--bold-color);
+    text-align: left;
+    padding-left: 16px;
+    align-self: end;
+    
+    /* text-align: center; */
+}
+.logo {
+    height: 100px;
+    position:sticky;
+    display: grid;
+    align-self: start;
+    padding-left: 16px;
+    /* transition: fadeIn .3s ease-in-out; */
+}
+
+li.active{
+    color:var(--bold-color);
+    text-decoration: underline;
+}
+
+
+
+
+body {
+    text-align: center;
+    /* font-family: 'Halant', serif;  */
+    font-family: 'Noto Serif JP','Halant', serif;
+}
+
+/* Text styles */
+
+h1{
+    padding: 0;
+    margin: 0;
+}
+
+
+h3{
+    color: var(--main-color);
+}
+
+
+h4 {
+    font-weight: normal;
+    color: black;
+}
+
+
+
+a:hover, li:hover {
+    background: linear-gradient(90deg,#996f00,#bd9417);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: none;
+}
+
+
+
+/* Images */
+
+.hero-banner{
+    background-color: var(--chaumet1);
+    width: 100%;
+    height: 320px;
+
+    font-size: 8rem;
+}

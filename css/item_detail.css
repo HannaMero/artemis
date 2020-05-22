@@ -1,0 +1,60 @@
+:root {
+    --main-color:#888888;
+    --second-color:#f0f0f0;
+    --bold-color:#996F00;
+    --body-color:#403c35;
+    --sub-color:#707070;
+    --box-color:#e4e7ee;
+
+    --body1:#e9e3db;
+    --body2:#dfd8d1;
+    --body3:#d2c5bb;
+    --body4:#c3b29d;
+    --body5:#c0b4aa;
+    --body6:#a79990;
+    --body7:#938982;
+    --body8:#60564f;
+    
+    --gold2:#b39347;
+
+    /* colores del logo */
+    --negro:#030303;
+    --gris:#bdbab6;
+    --gris2:#7d7b77;
+    --dorado:#af9e72;
+
+    /* Chaumet */
+    --chaumet1:#F9F6F2;
+    --chaumet2:#a48156;
+    --chaumet3:#c2a27a;
+
+    /* Breakpoints */
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+  
+}
+
+*{
+    background-color:var(--chaumet1);
+}
+
+.artemis-logo {
+    width: 200px;
+    background-color: transparent;
+}
+
+.artemis-text {
+    font-family: Halant,serif;
+    color: var(--bold-color);
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 3rem;
+    line-height: 0.1;
+    display: inline;
+    position: relative;
+    background-color: transparent;
+}
+
